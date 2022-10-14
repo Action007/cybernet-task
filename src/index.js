@@ -6,5 +6,3 @@ import App from './App';
 function render() {
 	ReactDOM.render(<App movies={getAllMovies()} watched={getWatchedMovies()} />, document.getElementById('root'))
 }
-
-render();
